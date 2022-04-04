@@ -1,0 +1,32 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title>background image with text</title>
+</head>
+<body>
+   <h1> Dont Give Up>
+   <p> Don't give up on everything, especially your dreams. Stand tall and you will rise above all. You will shine like the sun and be as powerful as rain.<p/>
+</body>
+</html>
+    
+    
+    body{
+        min-height: 100vh;
+        display: flex;
+        justify-content: Center
+        background-image: "Bak.jpg"
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+   
+    }
+       #content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 20vh;
+            width: 50%;
+            background-color: black;
+            font-size 45px;
+            color: black;
+            text-transform: uppercase;
